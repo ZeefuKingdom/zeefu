@@ -30,7 +30,7 @@
   
   body {
     align-items: center;
-    background-color:#e77fcf;
+    background: linear-gradient(27deg, rgba(118, 142, 147, 0.592), rgb(109, 209, 229));
     display: flex;
     font-family: -apple-system, 
       BlinkMacSystemFont, 
@@ -41,6 +41,33 @@
       Cantarell, 
       "Helvetica Neue", 
       sans-serif;
+  }
+
+  h2{
+
+    
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+  }
+
+  h2 a{
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: rgb(220, 241, 241);
+  }
+  
+  h2 a:hover{
+    background-color: rgb(110, 135, 135);
+    color: white;
   }
   
   .container {
