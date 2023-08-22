@@ -1,53 +1,25 @@
-.content{
-    background-color: #80cfff;
-}
 
 .dates{
     color: #000000;
-font-size: x-large;
-text-align: center;
-line-height: 20vh;
-}
-
-.headblock {
-    display: inline-block;
-    position: relative;
-    top: 11vh;
-    left: 16vw
-}
-
-.box1 {
-    position: relative;
-    margin-top: -5vh;
-    margin-left: 6vw;
-
-    color: black;
-    background-color: #80cfff;
-    height: 40vh;
-    width: 84vw;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 
 }
 
-.Calendar {
-    position: absolute;
-    top: 7%;
-    left: 2%;
-    width: 75%;
-    height: 90%;
+#calendar {
+    width: 70%;
+    height: 40%;
+    margin: auto;
 }
 
 iframe {
-
-    height: 35vh;
-    width: 80vw;
-}
-
-.months{
-    text-align: center;
-}
-.random{
-    text-align: center;
-}
-.year{
-    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: 3px solid rgb(52, 47, 47);
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
 }

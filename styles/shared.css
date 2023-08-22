@@ -13,6 +13,7 @@
 }
 .content{
     height: 86vh;
+    background: linear-gradient(27deg, rgb(119 215 234), rgb(80 139 88));
 }
 
 .center{
